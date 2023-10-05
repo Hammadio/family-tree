@@ -2,23 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Tree Website</title>
+    <!-- Meta tags and title go here -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Bienvenue au site web de la famille Sqalli</h1>
-    </div>
-    <div class="welcome-section">
-        <div class="button-container">
-            <a href="news.html" class="tree-button">Actualités</a>
-            <a href="https://www.heredis.com" class="tree-button">Family Tree</a>
-            <a href="chat.html" class="tree-button">Chat</a>
+    <div class="widget">
+        <div class="widget-circle" onclick="toggleChatWidget()">
+            Chatbot
+        </div>
+        <div class="chatbox" id="chatbox">
+            <div class="chat-header">
+                <span onclick="toggleChatWidget()">×</span>
+            </div>
+            <div class="chat-content">
+                <!-- Chat messages and input will appear here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
         </div>
     </div>
+    
+    <!-- Other content of the page goes here -->
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
