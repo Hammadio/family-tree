@@ -6,7 +6,7 @@ body {
 
 .welcome-section {
     background-image: url('tree-background.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 500px; /* Increase the height of the background image */
     color: #ffffff; /* Set text color to white for better visibility */
