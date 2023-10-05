@@ -2,23 +2,31 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .welcome-section {
     background-image: url('tree-background.jpg');
-    background-size: cover;
+    background-size: content;
     background-position: center;
-    height: 700px; /* Increase the height of the background image */
-    color: #ffffff; /* Set text color to white for better visibility */
+    height: 700px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px;
 }
 
 .button-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .tree-button {
@@ -34,5 +42,3 @@ body {
 .tree-button:hover {
     background-color: #555;
 }
-
-/* Add additional styles for news.html and chat.html pages as needed */
