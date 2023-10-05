@@ -100,3 +100,22 @@ body {
     align-items: center;
 }
 
+/* Add styles for other elements above this */
+.tree-sections {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #333;
+}
+
+.tree-section {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.tree-section:hover {
+    color: #3498db;
+}
