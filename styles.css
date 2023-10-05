@@ -14,7 +14,7 @@ body {
 
 .welcome-section {
     background-image: url('tree-background.jpg');
-    background-size: content;
+    background-size: contain;
     background-position: center;
     height: 700px;
     display: flex;
